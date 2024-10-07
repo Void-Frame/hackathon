@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: auto; */
+    
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    background-image: url("../images/pixelcut-export(2).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20%;
+}
+
+header {
+    background-color: rgb(3, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column; /* Stack vertically on small screens */
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00b777b1;
+    text-decoration: none;
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: rgb(130, 239, 208);
+}
+
+.content {
+    background-color: rgba(3, 0, 0, 0.8);
+    padding:10% 25%;
+    opacity: 0.9;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 40px;
+    color: azure;
+    font-family: 'Audiowide';
+    letter-spacing: 3px;
+    text-shadow:3px 3px  #025e3d;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+h1 {
+    color: #4ffccef9;
+    text-shadow: 3px 3px#bdede0;
+    letter-spacing: 6px;
+    font-size: 80px;
+    padding-bottom: 10%;
+    font-family: "Orbitron";
+}
+
+.btn {
+    background-color: rgba(4, 150, 89, 0.783);
+    color: #000;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 3px 3px #025e3d;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 5px 5px #cbd6d6;
+    font-family: 'Orbitron';
+    text-shadow: #000000;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(130, 239, 208) ;
+    box-shadow:5px 5px #000;
+    
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url('../images/signup_bg.jpg');
+}
+
+.registration {
+    display: flex;
+    flex-direction: column; /* Stack items for mobile */
+    align-items: center;
+    background-color: #000;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%; /* Responsive width */
+}
+
+.text-box {
+    margin-bottom: 20px; /* Spacing for mobile */
+}
+.text-box h1{
+    font-size: 45px;
+    font-family: 'Orbitron';
+    text-shadow: 3px 3px #bdede0;
+    text-align: center;
+}
+
+.card {
+    background-color:rgba(4, 150, 89, 0.783);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card h2{
+    color: #000000;
+    text-shadow: 1px 1px#000000;
+    font-size: 35px;
+}
+.card p{
+    font-family:'Orbitron';
+    font-size: 25px;
+}
+.image-box img {
+    border-radius: 10px;
+    max-width: 100%; /* Full width for responsiveness */
+    height: auto;
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url('../images/upscaled\ \(8\).jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.schedule-container {
+    background-color: #000000;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; /* Full width */
+    max-width: 600px; /* Limit max width */
+}
+.schedule-container h1{
+    font-size:50px;
+    padding-left: 5%;
+    padding-top: 5%;
+    letter-spacing: 6px;
+    text-shadow: 3px 3px #cbd6d6;
+    text-align: center;
+}
+
+.schedule-item {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    margin-bottom: 10px;
+}
+
+.day-number {
+    box-shadow: 8px 8px #a5e8d2;
+    background-color: #00b777b1;
+    padding: 10px;
+    border-radius: 65px;
+    text-align: center;
+    font-family: 'Audiowide';
+    font-size: 20px;
+}
+.day-info h2{
+    font-family: 'Audiowide';
+    font-size: 25px;
+    padding-top: 5%;
+    text-align: center;
+    text-shadow:2px 2px #000000;
+    
+}
+.day-info p{
+    text-align: center;
+    font-family: "Orbitron";
+    padding-bottom: 5%;
+    color: #cbd6d6;
+    letter-spacing: 3px;
+}
+.footer {
+    background-image:url('../images/pixelcut-export\ \(5\).jpg');
+    color: #09c492;
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footercontact h2{
+    text-align: center;
+    font-family: 'Orbitron';
+    padding-top: 3%;
+}
+.footercontact p{
+    padding-bottom: 3%;
+    font-family: 'Audiowide';
+    color: #cbd6d6;
+}
+.footercontact h3 a{
+    color: #cbd6d6;
+    font-family: 'Audiowide';
+    text-decoration: none;
+    letter-spacing: 3px;
+    
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icons img {
+    max-width: 50px; /* Responsive icon size */
+    height: auto;
+}
+@media (min-width: 600px ) {
+    div.content {
+        
+    }
+    div.content h2 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 480px) {
+    div.content {
+
+    }
+
+    div.content h2 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    div.content h1 {
+        font-size: 65px;
+    }
+}
+
+@media (min-width: 440px) {
+    div.container {
+        height: 50vh;
+    }
+    div.content {
+
+    }
+
+    div.content h2 {
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    div.content h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 360px) {
+    div.container {
+        height: 40vh;
+    }
+    div.content {
+
+    }
+
+    div.content h2 {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    div.content h1 {
+        font-size: 40px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .text-box h1{
+        font-size: 35px;
+    }
+    .schedule-container h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 720px ) {
+    body{
+        width: auto;
+    }
+    .content{
+        width: auto;
+    }
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: row; /* Horizontal layout for larger screens */
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .registration {
+        flex-direction: row; /* Row layout for larger screens */
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .text-box {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .image-box {
+        flex: 1;
+    } 
+
+    .schedule-container {
+        width:auto;
+    }
+}
+/* @media (min-width: 480px) {
+    div.content {
+
+    }
+
+    div.content h2 {
+        font-size: 15px;
+    }
+    div.content h1 {
+        
+    }
+} */
