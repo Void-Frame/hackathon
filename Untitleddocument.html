@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>General Rules and Regulations</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            color: #eff0eff9;
+            text-align: center;
+            font-size: 25px;  
+            background-color: rgb(1, 66, 50);  
+        }
+        #terms{
+            margin:4px 0 0;
+            line-height: normal;
+            width: 20px;
+            height:20px;
+        }
+        button:hover{
+        background-color: #4CAF50;
+        }
+        button{
+            margin-bottom: 20px;
+            background-color: #000000;
+            color: #fffcfc;
+            font-size: 25px;
+            border-radius: 10%;
+            box-shadow:  5px 5px #ddece8;
+            font-family: "Audiowide";
+        }
+        ul li{
+            align-items: center;
+            justify-content: center;
+            text-decoration:none;
+            list-style: none;
+        }
+        h1{
+            color: #4ffccef9;
+            text-align: center;
+            font-family:"Orbitron" ;
+
+        }
+        h2{
+            color:  #4ffccef9;
+            text-align: center;
+            font-family: "Orbitron";
+        }
+        .c2 {
+            align-items: center;
+            text-align: center;
+             color: #0d613d;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 12pt;
+            font-family:"Audiowide";
+        }
+        .c4 {
+            align-items: center;
+            text-align: center;
+            color: #0d613d;
+            /* margin-left: 36pt;
+            text-align: left; */
+            font-size: 12pt;
+            font-family: "Audiowide";
+        }
+        .c0 {
+            align-items: center;
+            text-align: center;
+            color: #0d613d;
+            font-size: 12pt;
+            font-family:"Audiowide";
+        }
+        .container {
+            margin-left: 50%;
+            align-items: center;
+            justify-content: center;
+}
+
+.chevron {
+  position:fixed;
+  width: 35px;
+  height: 5px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation:3s both;
+}
+
+.chevron:first-child {
+  animation: move 8s ease-out 1s;
+}
+
+.chevron:nth-child(2) {
+  animation: move 8s ease-out 2s;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>General Rules and Regulations</h1>
+
+    <h2>Eligibility</h2>
+    <ul>
+        <li class="c4">Attendees from all backgrounds, genders, and geographies are welcome.</li>
+        <li class="c4">Participants should be above the age of 17 and currently enrolled in a university.</li>
+    </ul>
+
+    <h2>Team Formation</h2>
+    <ul>
+        <li class="c4">Teams can consist of at least two members, with a maximum of four.</li>
+        <li class="c4">Changes to team members are not allowed.</li>
+    </ul>
+
+    <h2>Registration</h2>
+    <ul>
+        <li class="c4">Participation is subject to registration, which closes on August 13, 2024.</li>
+        <li class="c4">Registration is on a first-come, first-served basis and limited to 20 teams.</li>
+    </ul>
+
+    <h2>Accommodations and Necessities</h2>
+    <ul>
+        <li class="c4">The institute will provide accommodation, food, and other necessities.</li>
+    </ul>
+
+    <h2>Consent and Media Release</h2>
+    <ul>
+        <li class="c4">Participants may need to provide consent for media use of their photographs or videos.</li>
+    </ul>
+    <div class="container">
+        <div class="chevron"></div><div class="chevron"></div><div class="chevron"></div>
+     </div>
+<h2>Code Ownership</h2>
+<ul>
+    <li class="c4">All code developed during the Hackathon must be original.</li>
+    <li class="c4">Participants cannot use code or assets created by others without proper permissions or licenses.</li>
+</ul>
+
+<h2>Basic Requirements</h2>
+<ul>
+    <li class="c4">Every participant should bring their own laptops.</li>
+    <li class="c4">Git and GitHub Desktop should be installed on the participant's laptop.</li>
+    <li class="c4">All participants must have a GitHub account.</li>
+</ul>
+
+<h2>Presentation</h2>
+<ul>
+    <li class="c4">Each team will present their project to a judging panel, demonstrating functionality, features, and innovations.</li>
+</ul>
+
+<h2>Intellectual Property Rights</h2>
+<ul>
+    <li class="c4">Participants will retain their rights to the material they create.</li>
+    <li class="c4">Clients may use the material for their own internal activities and development.</li>
+</ul>
+
+<h2>Judging Criteria</h2>
+<ul>
+    <li class="c4">Judging criteria will be communicated before the event, and the judge's decision will be final.</li>
+    <li class="c4">Judging may include innovation, technical implementation, user experience, scalability, and relevance to the theme.</li>
+</ul>
+
+<h2>Project Development</h2>
+<ul>
+    <li class="c4">Teams will be provided a GitHub repository to upload and maintain commit history.</li>
+    <li class="c4">Teams must commit to the repository every 2 hours.</li>
+    <li class="c4">The entire project need not be fully implemented, but submissions should be functional for review.</li>
+    <li class="c4">Code must be open-source for evaluation by the judges.</li>
+    <li class="c4">Teams may be disqualified for breaking rules or unsporting behavior.</li>
+    <li class="c4">No development may start before the event.</li>
+    <li class="c4">Teams must stop working once the time is up, except for minor bug fixes during the demo.</li>
+</ul>
+
+<h2>Project Documentation</h2>
+<ul>
+    <li class="c4">All teams should have a team name and be registered with the site.</li>
+    <li class="c4">Documentation should include:
+        <ul>
+            <li class="c4">Project Name and Team Name</li>
+            <li class="c4">Team Members, roles, and contact information</li>
+            <li class="c4">Short abstract of the project</li>
+            <li class="c4">Theme and category</li>
+            <li class="c4">Solution to the problem</li>
+            <li class="c4">Technology and language used</li>
+            <li class="c4">Core features, instructions for use, and key screenshots</li>
+            <li class="c4">Development tools, SDKs, APIs, assets, and libraries used</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Attendee Code of Conduct</h2>
+<ul>
+    <li class="c4">Our hackathon is dedicated to providing a harassment-free experience for everyone, regardless of gender, identity, age, sexual orientation, disability, appearance, race, ethnicity, or religion.</li>
+    <li class="c4">We do not tolerate harassment of any form. Participants violating these rules may be expelled from the event without refund.</li>
+    <li class="c4">Harassment includes offensive verbal comments, intimidation, photography without consent, and unwelcome sexual attention.</li>
+    <li class="c4">If harassment occurs, participants should contact hackathon staff immediately.</li>
+</ul>
+
+<h2>Changes to the Rules</h2>
+<ul>
+    <li class="c4">Organizers reserve the right to make changes to the Hackathon rules and format. Modifications will be communicated in a clear and timely manner.</li>
+</ul>
+
+<h2>Consent and Media Release</h2>
+<ul>
+    <li class="c4">Participants may need to provide consent for their photographs, videos, or project details to be used for promotional or media purposes by the organizers.</li>
+</ul>
+<h2>Basic Requirements</h2>
+<ul>
+    <li class="c4">Participants must bring their own laptops.</li>
+    <li class="c4">Git and GitHub Desktop should be installed on all laptops.</li>
+    <li class="c4">All participants must have an active GitHub account.</li>
+</ul>
+
+<h2>Presentation</h2>
+<ul>
+    <li class="c4">Each team will present their project to a judging panel.</li>
+    <li class="c4">The presentation should demonstrate the functionality and features of the project.</li>
+    <li class="c4">Innovative aspects and user experience should also be highlighted.</li>
+</ul>
+
+<h2>Intellectual Property Rights</h2>
+<ul>
+    <li class="c4">Participants retain ownership of their intellectual property created during the Hackathon.</li>
+    <li class="c4">The use of open-source code or assets must be properly licensed and credited.</li>
+</ul>
+
+<h2>Judging Criteria</h2>
+<ul>
+    <li class="c4">The judging criteria will be communicated before the event begins.</li>
+    <li class="c4">Judges will evaluate projects based on innovation, technical implementation, user experience, scalability, and relevance to the theme.</li>
+    <li class="c4">The decision of the judges will be final and binding.</li>
+</ul>
+
+<h2>Project Development</h2>
+<ul>
+    <li class="c4">Participants will be provided a GitHub repository for version control and project submission.</li>
+    <li class="c4">All code must be committed to the repository at least every two hours.</li>
+    <li class="c4">Teams are encouraged to work collaboratively but must adhere to the event's time constraints.</li>
+    <li class="c4">All development must be done during the Hackathon. Pre-built projects are not allowed.</li>
+    <li class="c4">Use of publicly available and licensed APIs and SDKs is allowed.</li>
+    <li class="c4">Teams must stop development once the event time is over; however, minor bug fixes during the demo are allowed.</li>
+</ul>
+
+<h2>Project Documentation</h2>
+<ul>
+    <li class="c4">All teams must submit proper documentation with the following details:
+        <ul>
+            <li class="c4">Project name and team name</li>
+            <li class="c4">Team members, roles, and contact information</li>
+            <li class="c4">Short abstract of the project and its purpose</li>
+            <li class="c4">Technologies and languages used</li>
+            <li class="c4">Core features, instructions for use, and screenshots</li>
+            <li class="c4">Development tools, SDKs, and libraries used</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Attendee Code of Conduct</h2>
+<ul>
+    <li class="c4">We are committed to providing a safe and harassment-free environment for all participants, regardless of gender, identity, age, sexual orientation, disability, appearance, race, or religion.</li>
+    <li class="c4">Harassment of any kind will not be tolerated. Violations may result in expulsion from the Hackathon without refund.</li>
+    <li class="c4">If you experience or witness harassment, please inform Hackathon staff immediately.</li>
+</ul>
+
+<h2>Consent and Media Release</h2>
+<ul>
+    <li class="c4">Participants may be required to provide consent for the use of their photos, videos, and project details for promotional purposes.</li>
+</ul>
+
+<h2>Changes to the Rules</h2>
+<ul>
+    <li class="c4">The organizers reserve the right to make changes to the Hackathon rules. Any changes will be communicated to participants promptly.</li>
+</ul>
+
+<!-- Form for Agreement -->
+<form>
+    <input type="checkbox" id="terms" onchange="activateButton(this)"> I Agree to the Terms & Conditions
+    <br><br>
+    <button type="submit" id="submit" formaction="https://forms.gle/gRgM9VPZ75Ww1E4V9" disabled>Submit</button>
+</form>
+
+<!-- JavaScript for Form -->
+<script>
+    function activateButton(element) {
+        document.getElementById("submit").disabled = !element.checked;
+    }
+</script>
+
+</body>
+</html>
+
