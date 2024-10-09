@@ -79,6 +79,7 @@ h1 {
     flex: 1.5;
     margin-left: 50px;
     text-align: center;
+    padding: 20px;
 }
 
 .content-container h1 {
@@ -188,6 +189,42 @@ h1 {
     text-align: center;
     font-family: 'Audiowide';
 }
+@media (max-width: 1200px){
+    .hackathon-section div.image-container img {
+        width:75% ;
+    }
+    .content-container h1 span{
+        margin-left: 175px;
+    }
+    .image-container {
+        padding-left: 10%;
+        margin-left: 25px;
+    }
+}
+@media (max-width: 968px){
+    .hackathon-section div.image-container img {
+        width:95% ;
+    }
+    .content-container h1 span{
+        margin-left: 175px;
+    }
+    .image-container {
+        padding-left: 10%;
+        margin-left: 25px;
+    }
+    .content-container h1 {
+        font-size: 2.5rem;
+    }
+    .text-content h2 {
+        font-size: 1.2rem;
+    }
+    .text-content p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
 
 @media (max-width: 768px) {
     .goals-container {
@@ -202,5 +239,91 @@ h1 {
 
     .goals-section h1 {
         font-size: 2.5rem;
+    }
+    .intro{
+    background-repeat: no-repeat;
+    background-image: url('../imaes/TwoThousandSixteen\ Collection\ on\ Behance\ _\ Graphic\ design\ illustration\ Hackathon\ poster\ Illustration\ design.png');
+    background-size: contain;
+    margin-left: -400px;
+    }
+    .goals-section {
+        text-align: center;
+        padding: 0px 45px;
+    }
+
+
+    .hackathon-section{
+        padding-top: 25px;
+    }
+
+    .hackathon-section div.image-container img {
+        display: none;
+    }
+    .content-container h1 span{
+        margin-left: 175px;
+    }
+    .image-container {
+        padding-left: 10%;
+        margin-left: 25px;
+    }
+    .content-container h1 {
+        font-size: 2.5rem;
+        margin-left: -125px;
+    }
+    .text-content h2 {
+        font-size: 1.2rem;
+    }
+    .text-content p {
+        font-size: 0.8rem;
+    }
+    
+
+}
+@media (max-width: 480px){
+    .goals-section {
+        margin-left: 5px;
+        padding: 15px 25px;
+    }
+    .content-container h1 {
+        margin-left: -100px;
+    }
+    .info-box{
+        margin-left: -45px;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .container{
+        width: 50%;
+        padding: 3px;
+        margin-right: 3%;
+    }
+    .intro{
+        height: 75vh;
+    }
+}
+@media (max-width: 360px){
+    h1 {
+        font-size: 28px;
+    }
+    .content-container h1{
+        font-size: 28px;
+    }
+    .text-content h2 {
+        font-size: 16px;
+    }
+    .text-content p {
+        font-size: 12px;
+    }
+    .container {
+        width: 42%;
+        padding: 0px;
+        margin-right: 3%;
+    }
+    .subtitle {
+        font-size: 13px;
     }
 }
