@@ -5,34 +5,44 @@
 }
 
 body {
+    background-color: #000;
+    height: 100%;
     font-family: 'Arial', sans-serif;
-    color: rgb(255, 255, 255);
-    background-image:url('../images/Premium\ Vector\ _\ Technology\ dark\ metal\ green\ light\ futuristic\ background_.jpeg') ;
+    width: auto;
+    overflow-x: hidden
+}
+.intro{
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: white;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items: center;
     background-repeat: no-repeat;
-    background-size:auto;
-    background-color: black;
-    width: 90%;
+    background-image: url('../images/TwoThousandSixteen\ Collection\ on\ Behance\ _\ Graphic\ design\ illustration\ Hackathon\ poster\ Illustration\ design.png');
 }
-
 .container {
-    position: relative;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: right;
+    position: center;
     text-align: center;
     padding: 20px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 80%;
+    box-shadow: 10px 10px rgb(0, 234, 160);
+    width: 55%;
     max-width: 1200px;
+    
 }
 
 h1 {
+    text-shadow: 2px 2px #fff;
+    color:  #4ffccef9;
+    font-family: "Orbitron";
     font-size: 3.5rem;
     line-height: 1.2;
+    letter-spacing: 2px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -42,4 +52,155 @@ h1 {
     margin-bottom: 30px;
     max-width: 800px;
     margin: 0 auto 30px auto;
+    color:  #0d613d;
+    font-family: 'Audiowide';
+}
+.hackathon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+}
+
+.image-container {
+    flex: 1;
+    padding-left:20% ;
+}
+
+.image-container img {
+    justify-content: right;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.content-container {
+    width: 80%;
+    flex: 1.5;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.content-container h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.icon-number {
+    background-color:  #00b777b1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px #e8efed;
+}
+
+.text-content h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    color: #5bf4b2;
+    font-family: "Orbitron";
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0d613d;
+    font-family: "Audiowide";
+}
+
+@media (max-width: 768px) {
+    .hackathon-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .image-container {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .content-container {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.4rem;
+    }
+}
+.goals-section {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.goals-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4ffccef9; /* Black text for the title */
+    margin-bottom: 40px;
+}
+
+.goals-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-top: 40px;
+    
+    
+}
+
+.goal-box {
+    flex: 1;
+    background-color: #1bf194;
+    opacity: 0.9;
+    max-width:30%;
+    padding: 30px;
+    box-shadow: 20px 20px #0d613d;
+}
+.goal-box h2 {
+    font-family: "Orbitron";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000; /* Black text for the subtitles */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.goal-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #000000;
+    text-align: center;
+    font-family: 'Audiowide';
+}
+
+@media (max-width: 768px) {
+    .goals-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goal-box {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .goals-section h1 {
+        font-size: 2.5rem;
+    }
 }
